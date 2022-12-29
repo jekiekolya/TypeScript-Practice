@@ -38,3 +38,13 @@ myTuple = [null, 'string', undefined];
 let myTuple2: readonly [number, string, boolean] = [1, 'string', true];
 
 let myTupleNamed: [x: number, y: number] = [1, 3];
+
+// -----------------------Object------------------------
+const car: { type: string; year: number } = { type: 'BMW', year: 2005 };
+car.year = 2010;
+
+const car2: { type: string; year?: number } = { type: 'BMW' };
+
+const ages: { [index: string]: number } = {};
+ages.Nick = 23;
+ages.Jack = 25;
