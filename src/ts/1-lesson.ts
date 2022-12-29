@@ -34,3 +34,7 @@ let myArray3: readonly boolean[] = [true, false, null, undefined];
 // -----------------------Tuple------------------------
 let myTuple: [number, string, boolean] = [1, 'string', true];
 myTuple = [null, 'string', undefined];
+
+let myTuple2: readonly [number, string, boolean] = [1, 'string', true];
+
+let myTupleNamed: [x: number, y: number] = [1, 3];
