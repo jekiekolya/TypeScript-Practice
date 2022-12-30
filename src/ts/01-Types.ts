@@ -56,3 +56,42 @@ enum CardinalDirections {
   South = 200,
   West,
 }
+
+// ----------------------Aliases-----------------------------
+type CarYear = number;
+type CarType = string;
+type CarModel = string;
+
+type myNewCar = {
+  year: CarYear;
+  type: CarType;
+  model: CarModel;
+};
+
+const carYear: CarYear = 2003;
+const carNew123: myNewCar = {
+  year: 2006,
+  type: 's',
+  model: '123',
+};
+
+// --------------------Interfaces------------------------------
+interface myWork {
+  stack: string;
+  salary?: number;
+}
+
+const person: myWork = {
+  stack: '',
+  salary: 700,
+};
+
+interface myCompany extends myWork {
+  city: string;
+}
+
+const personCompany: myCompany = {
+  stack: '',
+  salary: 700,
+  city: 'Kyiv',
+};

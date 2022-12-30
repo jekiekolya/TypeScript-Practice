@@ -1,1 +1,1 @@
-import './ts/1-lesson';
+import './ts/01-Types';
