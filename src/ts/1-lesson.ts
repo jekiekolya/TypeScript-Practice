@@ -48,3 +48,11 @@ const car2: { type: string; year?: number } = { type: 'BMW' };
 const ages: { [index: string]: number } = {};
 ages.Nick = 23;
 ages.Jack = 25;
+
+// -----------------------Enum-------------------------
+enum CardinalDirections {
+  North = 1,
+  East = 'east',
+  South = 200,
+  West,
+}
