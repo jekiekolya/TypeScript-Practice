@@ -95,3 +95,10 @@ const personCompany: myCompany = {
   salary: 700,
   city: 'Kyiv',
 };
+
+// ------------------Unions---------------------------
+function printArgs(args: string | number) {
+  console.log('args:', args);
+}
+
+printArgs('true');
