@@ -1,1 +1,1 @@
-import './ts/02-functions';
+import './ts/03-classes';
