@@ -1,1 +1,1 @@
-import './ts/04-generic';
+import './ts/05-keyof';
