@@ -1,1 +1,1 @@
-import './ts/03-classes';
+import './ts/04-generic';
